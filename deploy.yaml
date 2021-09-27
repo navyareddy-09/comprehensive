@@ -18,7 +18,7 @@ spec:
       - name: secret-customer-docker
       containers:
       - name: customer-app
-        image: venunayira/milestone:latest
+        image: 3998/kubectl:latest
         ports:
         - containerPort: 8080
 ---
